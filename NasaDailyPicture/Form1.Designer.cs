@@ -71,9 +71,9 @@
             // 
             // nasaPicture
             // 
-            this.nasaPicture.Location = new System.Drawing.Point(12, 44);
+            this.nasaPicture.Location = new System.Drawing.Point(12, 32);
             this.nasaPicture.Name = "nasaPicture";
-            this.nasaPicture.Size = new System.Drawing.Size(740, 377);
+            this.nasaPicture.Size = new System.Drawing.Size(740, 389);
             this.nasaPicture.TabIndex = 3;
             this.nasaPicture.TabStop = false;
             // 

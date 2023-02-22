@@ -12,11 +12,16 @@ namespace NasaDailyPicture
 {
     public partial class Form1 : Form
     {
+        //Variables:
+        InformationLoader loader;
+
         public Form1()
         {
             InitializeComponent();
+            loader = new InformationLoader();
         }
 
+        //Button presses:
         private void todayBtn_Click(object sender, EventArgs e)
         {
 

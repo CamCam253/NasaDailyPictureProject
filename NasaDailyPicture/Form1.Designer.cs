@@ -48,6 +48,7 @@
             this.todayBtn.TabIndex = 0;
             this.todayBtn.Text = "Todays Picture";
             this.todayBtn.UseVisualStyleBackColor = true;
+            this.todayBtn.Click += new System.EventHandler(this.todayBtn_Click);
             // 
             // yesterdayBtn
             // 
@@ -58,6 +59,7 @@
             this.yesterdayBtn.TabIndex = 1;
             this.yesterdayBtn.Text = "Yesterdays Picture";
             this.yesterdayBtn.UseVisualStyleBackColor = true;
+            this.yesterdayBtn.Click += new System.EventHandler(this.yesterdayBtn_Click);
             // 
             // randomBtn
             // 
@@ -68,6 +70,7 @@
             this.randomBtn.TabIndex = 2;
             this.randomBtn.Text = "Random Picture";
             this.randomBtn.UseVisualStyleBackColor = true;
+            this.randomBtn.Click += new System.EventHandler(this.randomBtn_Click);
             // 
             // nasaPicture
             // 

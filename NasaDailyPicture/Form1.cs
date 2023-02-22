@@ -16,5 +16,20 @@ namespace NasaDailyPicture
         {
             InitializeComponent();
         }
+
+        private void todayBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yesterdayBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void randomBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
